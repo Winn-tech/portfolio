@@ -3,7 +3,9 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import leaf from "../../Assets/Projects/leaf.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+// import ticketwave from "../../Assets/Projects/Screenshot 2025-02-04 234924.png"
+import winncocktail from "../../Assets/Projects/winn-cocktail.png"
+import ticketwave from "../../Assets/Projects/ticketwave.png"
 import chatify from "../../Assets/Projects/chatify.png";
 import bitsOfCode from "../../Assets/Projects/blog.png";
 
@@ -23,7 +25,7 @@ function Projects() {
         
         <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={ticketwave}
               isBlog={false}
               title="Ticketwave"
               description="A fullstack app built mainly with ReactJs and Vanilla CSS for the frontend, seamlessly integrating multiple backend APIs. It features real-time event listings, an intuitive seat selection interface, and a smooth booking system for a hassle-free ticketing experience."
@@ -34,7 +36,7 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={bitsOfCode}
+              imgPath={winncocktail}
               isBlog={false}
               title="Winn-Cocktail"
               description="A beautifully crafted cocktail discovery app built with React.js and styled with Vanilla CSS. It fetches data from a cocktail API, providing users with a vast collection of wines and cocktails, along with their ingredients and preparation methods. Users can effortlessly search for drinks, explore recipes, and educate themselves on mixology."
