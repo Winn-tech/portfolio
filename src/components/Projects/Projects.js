@@ -63,8 +63,8 @@ function Projects() {
               isBlog={false}
               title="Winns Note App"
               description="A simple yet powerful note-taking app built with React.js. It uses local storage for persistent data saving, ensuring notes are never lost. The app features a light/dark mode toggle and includes essential note management functionalities like adding, editing, and deleting notes. State management is efficiently handled using useReducer, making the app more scalable and maintainable."
-              ghLink="https://github.com/soumyajit4419/Plant_AI"
-              demoLink="https://plant49-ai.herokuapp.com/"
+              ghLink="https://github.com/Winn-tech/"
+              demoLink="https://winn-writepad.vercel.app/"
             />
           </Col>
           
